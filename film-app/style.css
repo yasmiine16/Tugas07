@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #d9a7c7, #fffcdc);
+    margin: 10;
+    padding: 40px;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+h2 {
+    margin-top: 0;
+}
+
+input[type="text"], input[type="number"], select {
+    width: 100%;
+    padding: 8px;
+    margin: 6px 0;
+    box-sizing: border-box;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-right: 10px; 
+}
+
+.submit-btn {
+    background-color: #6b46c1;
+    color: white;
+    margin: 8px 0 12px 0; 
+}
+
+table {
+    margin-top: 20px;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.update-btn {
+    background-color: #c6f6d5;
+    margin-right: 10px;
+}
+
+.delete-btn {
+    background-color: #feb2b2;
+}
+
+/* Alternatif modern untuk button aksi */
+.action-buttons {
+    display: flex;
+    gap: 6px;
+}
